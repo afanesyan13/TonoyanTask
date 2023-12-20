@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 /* Header Start*/
 .wraper {
     max-width: 1349px;
@@ -43,6 +45,11 @@
     margin: -74px 20px;
     color: #5a5b5f;
 }
+@media screen and (min-width: 1000px) {
+    .first_title_bg{
+        color: red;
+    }
+  }
 
 /* Background Section End */
 
