@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Start*/
+.wraper {
+    max-width: 1349px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.general_link {
+    padding: 8px 16px;
+}
+
+.link_decoration {
+    text-decoration: none;
+    font-family: "Times New Roman", Georgia, Serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+/* Header End */
+
+/* Background Section Start */
+.first_title_bg {
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: -74px 20px;
+    color: #5a5b5f;
+}
+
+/* Background Section End */
+
+/* General Setion Start */
+
+.container {
+    display: flex;
+    margin-top: 170px;
+    justify-content: center;
+}
+.imgs {
+    max-width: 501px;
+}
+.first_img {
+    width: 100%;
+}
+.for_text {
+    width: 41.99999%;
+    margin-left: 50px;
+}
+
+.title_one {
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.title_two {
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.text_one {
+    font-size: 18px;
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 1.5;
+}
+.spn {
+    color: #000;
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.text_two {
+    width: 501px;
+    padding-top: 3px;
+    color: #757575;
+    font-size: 18px;
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+/* General Section End */
+
+/* Second Section Start */
+.border {
+    border: 1px solid;
+    width: 1120px;
+    margin: 150px 120px 130px;
+    border: 1px solid #eeeeee;
+}
+.text_container {
+    padding-right: 116px;
+}
+.mb {
+    margin-bottom: 65px;
+}
+.title_text {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.about_title {
+    color: #757575 !important;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Times New Roman", Georgia, Serif;
+    margin-bottom: 50px;
+}
+/* Second Section End */
+
+/* Start to Contacts */
+.container_form {
+    text-align: left;
+    margin-left: 120px;
+    max-width: 1068px;
+}
+.contact_txt {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.txt {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.txt b {
+    color: #607d8b !important;
+    font-size: 18px !important;
+}
+.form {
+    margin-top: 40px;
+}
+.input_brd {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 8px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.btn {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+}
+/* End to Contacts */
+
+/* Footer Start */
+.footer {
+    display: flex;
+    width: 100%;
+    height: 117px;
+    background-color: #f1f1f1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.last_text {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.last_link {
+    color: #000;
+}
+.last_link:hover {
+    color: #059430;
+}
+/* Footer End */
